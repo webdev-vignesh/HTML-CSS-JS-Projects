@@ -38,9 +38,7 @@ const updateCountdown = () => {
     minuteEl.innerText = m;
     secondEl.innerText = s;
 
-    setTimeout( () => {
-        updateCountdown();
-    },1000)
+    setTimeout(updateCountdown,1000);
 }
 
 updateCountdown();
