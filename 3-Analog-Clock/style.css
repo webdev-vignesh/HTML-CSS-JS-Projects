@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding:0;
-    background-color: rgb(185, 127, 53);
+    background-image: url("https://img.freepik.com/free-vector/wooden-wall-floor-with-aged-surface-realistic_107791-682.jpg?w=1060&t=st=1674545441~exp=1674546041~hmac=edf3a11741fd3fbb3c4da864f09452d58ef9d1ad47f8f8aeeab456ad4e9eeafe");
     font-family: 'Courier New', Courier, monospace;
     min-height: 100vh;
     display: flex;
@@ -23,7 +23,7 @@ img{
     position: relative;
     width: 350px;
     height: 350px;
-    border: 5px solid darkgray;
+    border: 5px solid gray;
     border-radius: 50%;
     background-color: lightgray;
     box-shadow: 1px 1px 4px rgba(0,0,0,0.7);
